@@ -1,6 +1,6 @@
 const bcrypt = require("bcrypt");
 const { validationResult } = require("express-validator");
-const { mongoose, isValidObjectId } = require("mongoose");
+const { mongoose } = require("mongoose");
 const User = mongoose.model("User");
 const mappedUser = require("../helpers/reqMapper");
 
